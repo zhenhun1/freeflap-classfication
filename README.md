@@ -6,6 +6,19 @@ A free flap consists of skin and its associated tissues, widely utilized in the 
 
 
 ## Methodology
+
+<!-- 我们提出的方法包括：
+1、基于解剖学和比色学方法建立机理模型，为特征提取提供理论基础
+2、在预处理过程中，对训练和验证集数据集使用Kmeans聚类算法，将图像的阴影、线头等干扰因素裁剪掉
+3、随机提取图像的像素曲线值并提取曲线特征，提取的特征共有9个
+4、对预测模型提取的像素曲线限定了取线范围，保证特征的有效性
+-->
+Our proposed approaches include:
+Establishing a mechanistic model based on anatomical and colorimetric methods to provide a theoretical foundation for feature extraction.
+Applying the K-means clustering algorithm during preprocessing on the training and validation datasets to remove interference factors such as shadows and line ends from images.
+Randomly extracting pixel curve values from images and deriving nine curve features.
+Imposing limits on the pixel curves extracted by the prediction model to ensure the validity of the features.
+
 ## Dataset and Evaluation
 ## Appliction Prospects
 我们使用pixel exctration进行像素提取，然后用特征1，2提取特征。删除不需要的部分。令计算的null值
