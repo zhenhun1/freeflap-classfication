@@ -24,7 +24,7 @@ Our proposed approaches include:
 4、Imposing limits on the pixel curves extracted by the prediction model to ensure the validity of the features.
 
 ## Dataset and Evaluation
-## Appliction Prospects
-我们使用pixel exctration进行像素提取，然后用特征1，2提取特征。删除不需要的部分。令计算的null值
-为0
+ In the model prediction phase, to ensure the effectiveness of the feature extraction, we proposed a method of limiting the area for line extraction, randomly extracting 15 lines from the images, and using a voting method to make the final prediction. The results show that the overall accuracy of the model is 96.58±0.68%, with an accuracy of 98.04±1.57% for intraoral crisis flaps and 93.75±1.79% for extraoral crisis flaps. 
 
+## Appliction Prospects
+The model provides a new approach to monitoring free flap viability, particularly effective in monitoring craniofacial and intraoral free flaps, assisting doctors in promptly identifying flap compromise.
