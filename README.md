@@ -14,9 +14,13 @@ A free flap consists of skin and its associated tissues, widely utilized in the 
 4、对预测模型提取的像素曲线限定了取线范围，保证特征的有效性
 -->
 Our proposed approaches include:
+
 1、Establishing a mechanistic model based on anatomical and colorimetric methods to provide a theoretical foundation for feature extraction.
+
 2、Applying the K-means clustering algorithm during preprocessing on the training and validation datasets to remove interference factors such as shadows and line ends from images.
+
 3、Randomly extracting pixel curve values from images and deriving nine curve features.
+
 4、Imposing limits on the pixel curves extracted by the prediction model to ensure the validity of the features.
 
 ## Dataset and Evaluation
